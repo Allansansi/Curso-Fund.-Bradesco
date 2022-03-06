@@ -1,0 +1,46 @@
+
+
+#form_cd{
+
+    font-size: 0.6cm;
+    padding: 4px;
+    color: blue;
+}
+
+#nome_p{
+    font-size: 0.5cm;
+    
+}
+#nome_cad{
+
+    margin-bottom: 1px;
+}
+
+#email_cad{
+    
+}
+
+#idade_cd{
+
+}
+
+#sexo_cd{
+
+}
+
+#enviar_cd{
+
+    padding-bottom: 0.3;
+    border-radius: 2cm;
+    color: blue;
+
+}
+
+#limpar_cd{
+
+    padding-bottom: 0.3;
+    border-radius: 2cm;
+    color: blue;
+   
+}
+
