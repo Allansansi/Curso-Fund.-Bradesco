@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentativa 3 - Formulário</title>
+    <link rel="stylesheet" href="Exerc1(Tentativa 3).css">
+</head>
+<body>
+    
+    <form action="post">
+        <p>Formulário de Cadastro</p>
+
+        <fieldset> <!--fieldset para agrupar conjunto de controles de dados-->
+            <legend>Informações Pessoais</legend>
+            <label for="Nome"> Nome: </label><input type="text" name="nome_cd" id="nome_cd" required placeholder="Digite seu nome" autocomplete="name">
+            <label for="Email">Emai: </label> <input type="email" name="email_cd" id="nome_cd" required placeholder="Digite o seu email" aria-placeholder="italic">
+            <label for="Cidade">Cidade: </label> <input type="text" id="cidade_cd" placeholder="Onde você mora atualmente?">
+            <label for="Tel">Telefone: </label><input type="tel" required placeholder="(00)00000-0000" >
+            <label for="sexo">Sexo        
+                        <select name="sexo" id="sexo_cd">
+                                <optgroup>
+                                <option value="masc_cd">Masculino</option>
+                                <option value="femen_cd">Femenino</option>
+                                <option value="não_cd">Prefiro não dizer</option>
+                            </optgroup>
+                        </select></label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Médicos</legend>
+            <label for="dados_cd">Você toma algum medicamento?</label> <input type="radio" required id="meds_cd" name="meds" checked> Sim
+             <input type="radio" required id="medn_cd" name="meds" > Não
+            <label for="resp">Se sim, qual?</label>
+            <textarea name="textmed" id="text_med" cols="30" rows="10" placeholder="Digite aqui qual ou quais medicamentos."></textarea>
+            <label for="arq">Ou insira aqui a cópia da receita: </label> <input type="file" id="receita">
+        
+           
+        </fieldset>
+    </form>
+
+</body>
+</html>
